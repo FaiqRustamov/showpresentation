@@ -67,7 +67,7 @@
 }
 .quiz{
   display: inline-block;
-  background: #fdc632;
+  background: #ffae00;
   padding: 0px 48px;
   color: #0a5973;
   font-size: 13px;
@@ -91,7 +91,7 @@
 }
 .syllabus-item{
   background-color:#0a5973 ;
-  color: #fdc632;
+  color: #ffae00;
   font-size: 12px;
   padding: 12px 28px;
   text-align: center;
@@ -99,7 +99,7 @@
   border-radius: 4px;
 }
 .syl{
-  color: #fdc632 !important;
+  color: #ffae00 !important;
 }
 #contentcode{
 

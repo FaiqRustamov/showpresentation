@@ -15,7 +15,9 @@
   background-color: #030b0e !important;
   }
   
-  
+  body{
+    font-family: 'Fira Sans', sans-serif;
+  }
 
   
   .row {
