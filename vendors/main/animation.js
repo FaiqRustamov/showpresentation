@@ -8,3 +8,13 @@ $(function(){
    ++i;
 
  }
+ $(function(){
+  $('#toggleThis').click(function(){
+    $('#contentinterview').slideToggle(800,callback);
+  });
+});
+window.i=0;
+function callback(){
+ ++i;
+
+}
