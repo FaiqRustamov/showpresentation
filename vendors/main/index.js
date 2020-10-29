@@ -1,5 +1,3 @@
-
-
 const forms = {
   baseURL: "http://127.0.0.1:8000/",
   register: () => {
@@ -47,67 +45,17 @@ const forms = {
 
 
 };
-// const blogs = {
-//   baseURL: "http://127.0.0.1:8000/",
-//   blogs: () => {
-//     let blogData = $(".blog_area").serializeArray();
-//     let blogArray = {};
-//     console.log(blogData);
-//     if (blogData) {
-//       blogArray.id = blogData[0].value;
-//       blogArray.image = blogData[1].value;
-//       blogArray.title = blogData[2].value;
-//       blogArray.article=blogData[3].value;
-//       console.log(blogArray)
-//       const request = new XMLHttpRequest();
-//       request.open("GET", blog.baseURL + "blog/allblog", true);
-//       request.setRequestHeader("content-type", "application/json");
-//       request.send(JSON.stringify(blogArray));
-
-//       request.onload = () => {
-//         if (request.status != 400) {
-//            col = $("<div>");
-//            col.addClass("blog-content col-md-9");
-//            $(".blog-content").attr("id");
-//            $(".blog-content").attr("image");
-//            $(".blog-content").attr("title");
-//            $(".blog-content").attr("article");
-//            col.append(image);
-//            col.append(article);
-//            col.append(id);
-//            console.log("salam");
-//            col.append(title);
-// console.log(request.responseText);
-//           // const blog_text = document.createElement('div');
-//           // blog_text.setAttribute('class','blog-content col-md-9');
-//           // const content_title=document.createElement('h2');
-//           // content_title.textContent=blogArray.title;
-//           // const content_area=document.createElement('p');
-
-//         } else {
-//           console.log("You didnt get ");
-//         }
-//       };
-//     }
-//   },
-// };
 
 
 
+ $(document).ready(() => {
+   document.getElementById("register-submit-btn")
+.addEventListener("click", () => {
+       forms.register();
+     });
+
+
+ });
 
 
 
-
-
-
-
-
-$(document).ready(() => {
-  document
-    .getElementById("register-submit-btn")
-    .addEventListener("click", () => {
-      forms.register();
-    });
-
-
-});

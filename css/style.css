@@ -3592,3 +3592,9 @@ form.example::after {
   clear: both;
   display: table;
 }
+.course_img{
+  float: left;
+    width:  100% !important;
+    height: 400px !important;
+    object-fit: cover;
+  }
